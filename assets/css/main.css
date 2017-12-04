@@ -1,21 +1,116 @@
 /* #fb8d6f color fondo, head,etc
-#a7e093 background about panda y atributes
+#a7e093 background about panda y square img
 */
 body{
-	background-color: #fb8d6f;
+/*configuro la fuente y el tono de la página*/
 	font-family: 'Roboto', sans-serif;
-	color: white;
+	color:#efefef;
+	
+}
+.container1{
+	background-color: #fb8d6f;
+}
+.container1 h1{
+	font-size: 35px;
+	/*font-weight: lighter;*/
+	padding-top:5%;
+	padding-bottom:2%;
+	padding-right:5%;
+	text-align: right;
+	
+}
+.container1 h4{
+	font-size: 13px;
+	padding-bottom:5%;
 	font-weight: lighter;
+	text-align: right;
+	padding-right: 5%;
 }
-#img1 {
+.container2{
+/*establezco imagen como fondo para que abarque todo el rowy col-12*/
 	background-image: url("../images/uno.jpg");
-	background-size: cover;
+	background-size:cover;
+	height: 100vh;
 }
-#img2 {
-	background-image: url("../images/dos.jpg");
-	background-size: cover;
+.central{
+	background-color: #a7e093;
+	/*doy estilo al borde del container*/
+	border-top: 15px solid #fb8d6f;
+	border-bottom: 15px solid #fb8d6f;
+	padding-top: 2%;
+
+} 
+ .text{
+ 		background-color: #fb8d6f;
+ 		margin:3% 0% 3% 25%;
+ 		padding: 8% 8% 8% 8%;
+ 		background-size:cover;
+ 		font-weight: lighter;
+ }
+h3{
+ 		font-size: 20px;
+ 		text-align: center;
+ 		padding:1%;
+ }
+ p{
+ 	font-size: 14px;
+ 	line-height: 1.5em;
+ 	text-align: justify-all;
+ 	padding: 2% 1% 10% 1%;
+
+ }
+ .second-img{
+ /*establezco imagen como fondo para que abarque todo el rowy col-12*/		
+ 		background-image: url("../images/dos.jpg");
+		background-size: cover;
+		height: 100vh;
+		border-bottom: 15px solid #fb8d6f;
 }
-#img4 {
+.container5{
+	background-color: #a7e093;
+	padding-bottom: 3em;
+	border-bottom: 15px solid #fb8d6f;
+}
+h2{
+	font-size: 30px;
+	padding-bottom: 1%;
+	padding-top: 6%;
+	/*font-weight: lighter;*/
+	text-align: center;
+}
+.img-littles{
+/*centro imagenes en el row*/	
+	vertical-align: center;
+	text-align: center;
+}
+.img-square1, .img-square2, .img-square3, .img-square4{
+/*doy estilo borde img pequeñas para enmarcar*/	
+	border: 8px solid #efefef;
+}
+.col-3 {
+	text-align: center;
+}
+.img-square1{
+	/*para centrar las imagenes*/
+	margin-left: 20%;
+}
+.img-square4{
+	margin-right: 20%;	
+}
+.container6{
+/*establezco imagen como fondo para que abarque todo el rowy col-12*/	
 	background-image: url("../images/tres.jpg");
-	background-size: cover;
+	background-size:cover;
+	height: 100vh;
+}	
+.container7{
+	background-color: #fb8d6f;
+	text-align: right;
 }
+
+.author{
+	font-size: 16px;
+}
+
+
+

@@ -8,3 +8,5 @@ tonos: /* #fb8d6f color fondo, head,etc
 #a7e093 background about panda y atributes
 */
 Usaré grid se 12 (n/12)* 100
+Para cada sección realizo un div container para dar estilos como border, padding, background, etc.
+Luego genero un div row que contendra la o las col necesarias para disponer los elementos.
